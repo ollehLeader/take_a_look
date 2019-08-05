@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F2DC93"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:padding="60dp"
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:padding="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_image"
+            android:textAllCaps="false"
+            android:text="Recommend"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_bold"
+            android:id="@+id/btnRcmd"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_image"
+            android:textAllCaps="false"
+            android:text="My List"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_bold"
+            android:id="@+id/btnList"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_image"
+            android:textAllCaps="false"
+            android:text="Rank"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_bold"
+            android:id="@+id/btnRank"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_image"
+            android:textAllCaps="false"
+            android:text="Option"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_bold"
+            android:id="@+id/btnOption"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>
